@@ -1,0 +1,16 @@
+domain: samples.ftc
+layout:
+- go.kubebuilder.io/v4-alpha
+projectName: abstract-workload
+repo: samples.ftc/abstractworkload
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: samples.ftc
+  group: samples
+  kind: AbstractWorkload
+  path: samples.ftc/abstractworkload/api/v1alpha1
+  version: v1alpha1
+version: "3"
