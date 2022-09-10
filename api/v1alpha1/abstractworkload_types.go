@@ -31,7 +31,9 @@ type AbstractWorkloadSpec struct {
 
 	//+required
 	Replicas       *int32       `json:"replicas"`
+	//+required
 	ContainerImage string       `json:"containerImage"`
+	//+required
 	WorkloadType   WorkloadType `json:"workloadType"`
 }
 
