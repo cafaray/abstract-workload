@@ -1,0 +1,8 @@
+apiVersion: samples.samples.ftc/v1alpha1
+kind: AbstractWorkload
+metadata:
+  name: test-stateful
+spec:
+  containerImage: "nginx:latest"
+  replicas: 3
+  workloadType: stateful
