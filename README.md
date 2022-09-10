@@ -2,7 +2,7 @@
 
 This excercise is a copy of the excellent example and well documented in [medium.com](https://medium.com/@marom.itamar/building-kubernetes-operators-65fbb2043cd0) by [Itamar Marom](https://medium.com/@marom.itamar)
 
-The goal of the source code is demostrate the use of (kubebuilder)[https://book.kubebuilder.io/quick-start.html] to create CRDs and Controllers in Kubernetes in a "simple" way. 
+The goal of the source code is demostrate the use of [kubebuilder](https://book.kubebuilder.io/quick-start.html) to create CRDs and Controllers in Kubernetes in a "simple" way. 
 
 One of the hardest part of this is the imperative needed knowledge of [GO](https://go.dev/doc/tutorial/getting-started). To be honest, I've buidl a couple of services, and a simple console application to start programming in golang. It's simple, and easy manage language, but as other ones, the importance is in the knowlege of the libraries, frameworks, and so on. 
 
